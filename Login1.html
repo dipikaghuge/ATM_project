@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>User-SignUp</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width">
+        
+        <script>
+         </script>
+  
+        <style>
+        body {
+           background-image: url("bankimg1.jpg");
+           background-repeat:no-repeat;
+           background-size: 100% ,100%;
+               background:linear-gradient(120deg,#2980b9,#8e44ad);
+          
+          }
+        
+         
+        .center{
+          position:absolute;
+          top:50%;
+          left:50%;   
+          transform:translate(-50%,-50%);
+          width:400px;
+          background:white;
+          border-radius:10px;
+        }
+        
+        .center h2{
+        text-align:center;
+        padding:0 0 20px 0;
+        border-bottom:1px soid silver;
+        }
+        
+        .center form{
+        padding:0 40px;
+        box-sizing:border-box;
+        }
+        
+        form .txt_filed{
+        position:relative;
+        border-bottom:2px solid #adadad;
+        margin:30px 0;
+        }
+        
+        .txt_filed input{
+        width:100%;
+        padding:0 5px;
+        height:40px;
+        font-size:16 px;
+        border:none;
+        background:none;
+        outline:none;
+        }
+        </style>
+        </head>
+ <body>
+      <div class="center">  
+      <h2>Welcome To ATM </h2>
+     <form  action="Loginweb"  method="post">
+              <div class="txt_filed">
+                  <lable><b>ACCOUNT NO:</lable>
+                     <input type="text" id="accno"  placeholder="enter here.." name="actNo">
+                      <br> 
+                      </div>
+                      <div class="txt_filed">  
+                   <lable> PIN:</lable>
+                    <input type="password"  placeholder="enter here.." name="actPin">
+                    <br>
+                    </div>
+                    
+                   <input type="submit" name="btn" onclick="xyz()">
+                   <br>
+                   <br>
+                   do you have account?<a href='SignUpForm.jsp'>SignUp</a>
+                   </div>
+        </form>
+    </body>
+</html>
+
